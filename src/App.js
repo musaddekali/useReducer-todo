@@ -1,9 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useReducer } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Todo from './Todo';
 
 
 export default function App() {
+
   return (
-    <h1>Hay Mahid</h1>
+    <main>
+     <Todo/>
+    </main>
   )
-}
+};
